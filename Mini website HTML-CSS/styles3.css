@@ -1,0 +1,47 @@
+/* Custom CSS for Still Getting Started*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url('./images/cloud.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 14px;
+    }
+#container{
+    width: 700px;
+    margin: auto;
+}
+#header, #footer{
+    padding: 30px;
+    margin: 10px;
+    color: #fff;
+    background: #333;
+}
+#footer{
+    text-align: center;
+    font-size: 12px;
+}
+.lead{
+    font-size: 18px;
+}
+.blog-post{
+    background: #fff;
+    margin: 10px ;
+    padding: 30px;
+}
+h1, h2, h3 {
+    color: #ed7000;
+
+}
+.blog-post h3, .blog-post p {
+    margin-bottom: 10px;
+}
+.blog-post em{
+    color: #ccc;
+}
