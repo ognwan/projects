@@ -1,4 +1,4 @@
-#Trying to create my own PDF reader. But it is not complete yet
+#Trying to create my own PDF reader. But it is still a work in progress
 import PyPDF2
 import sys
 
