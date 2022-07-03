@@ -49,5 +49,6 @@ def pdf_watermark(watermark_file, input_file):
 
 	with open("output_file.pdf", "wb") as new_file:
 	    writer.write(new_file)
-
+  
+  
 main_function()

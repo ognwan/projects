@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/green_background.jpg);
+    font-family: Helvetica, Arial,  sans-serif;
+}
+
+#container{
+    width: 700px;
+    padding: 40px;
+    background-image: url(./images/yellow_background.jpg);
+    margin: auto;
+}
+.sidebar{
+    background-image: url(./images/green_background.jpg);
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    position: relative;
+    left: -35px;
+    text-align: center;
+}
+#sidebar{
+    width: 250px;
+    float: right;
+    background-image: url(./images/texture_background.jpg);
+    
+    
+}
+#main_content{
+    float: left;
+    width: 400px;
+    padding: 20px;
+  
+}
+#clear{
+    clear: both;
+}
+#steak{
+    position: relative;
+    top: -40px;
+    left: 282px;
+   
+}
+#reminder{
+    background-image: url(./images/red_background.jpg);
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+#special_offer{
+    position: relative;
+    top: 35px;
+    left: -10px;
+}
+#market_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#location, #mission, #contact{
+    /* margin-bottom: 1px; */
+    margin: 10px;
+    padding: 10px;
+    
+}
+#send_email{
+    background-color: rgb(51, 192, 51);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px ;
+    position: relative;
+    top: 6px;
+}
